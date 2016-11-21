@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kerri-Dale Smith</title>
+	<meta charset="utf-8">
+	<style>
+		* {
+			box-sizing: border-box;
+			/*border: 1px solid black;*/
+			/*margin: 0;
+			padding: 0;*/
+		}
+		body {
+			background-color: white;
+			font-family: Verdana, Arial, sans-serif;
+			/*margin: 5%;*/
+			color: black;
+		}
+		#nav {
+            background-color: black;
+			padding: 0;
+			margin: 0;
+		}
+		/*#menubar {
+			float: left;
+			display: inline-block;
+
+		}
+		#content {
+			float: left;
+			padding-right: 25px;
+		}*/
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			
+		}
+		li {
+			float: left;
+			/*display: inline-block;
+			margin-right: 20px;*/
+
+		}
+		li a {
+			display: inline-block;
+			text-align: center;
+			padding-top: 15px;
+			padding-right:40px;
+			padding-left: 40px;
+			text-decoration: none;
+			color: white;
+		}
+		li a:hover {
+			
+			color: grey;
+		}
+		
+ 
+		/*a:hover, a:active {
+             background-color: #cf224d ;
+            }*/
+		h1 {
+			text-align: center;
+		}
+		h2 {
+			text-align: center;
+			color: grey;
+		}
+		img {
+			float: right;
+			margin: 0 0 15px 15px;
+		}
+		.bio {
+			padding-right: 10px;
+			padding-top: 10px;
+		}
+		#logo:hover {
+			background-color: white;
+		}
+		.team {
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<!--<div id="menubar">-->
+		<!--<nav class="nav">-->
+		<div id="nav">
+			<ul>
+			<li id="logo"><a href="home.html"><img src="logo2.png" style=”width: 100%”></a></li>
+			<li class="team"><a href="aboutjoy.html">Joy</a></li> 
+			<li class="team"><a href="aboutkerri.html">Kerri</a></li>
+			<li class="team"><a href="aboutfemi.html">Femi</a></li>
+			<li class="team"><a href="aboutadriano.html">Adriano</a></li>
+			<li class="team"><a href="aboutkatie.html">Katie</a></li>
+			</ul>
+		</div>
+		<!--</nav>-->
+	<!--</div>-->
+	
+	<div id="content">
+		<div class="header">
+			<h1>Kerri-Dale Smith</h1>
+		</div>
+		<div class="header">
+			<h2>Product Design Strategist</h2>
+		</div>
+		<div>
+			<img id="play" src="kerri.jpg" width="50%"><!--insert photo of yourself here-->
+		</div>
+		<div>
+			<p class="bio">Kerri was born high up in the hills of Mandeville, Jamaica, so she loves any and all outdoor activities -- with the exception of those that take place in the dead of Winter. An avid doodler, Kerri can fill notebooks up at a rapid rate; she's constantly sketching ideas that and solutions to enrich others' lives. Ever wonder why her hair is so big -- it's full of ideas!
+            <br><br>
+            Equipped with a degree in Industrial Design, Kerri works with her fantastic team to create the most innovative products the planet has ever seen. If you don't know, you better take a trip to the nearest Apple store and ask somebody!</p>
+		</div>
+		<div class="header">
+			<h3>Fun Fact</h3>
+		</div>
+		<div>
+			<p class="bio">Kerri is ambidextrous - Double the fun for your design!</p>
+		</div>
+	</div>
+
+	<h3> Get to know Kerri at... </h3>
+
+	<button onclick="document.getElementById('play').src='kerri.jpg'">At Play</button>
+
+	<button onclick="document.getElementById('play').src='KerriAtWork.jpg'">At Work</button>
+
+	
+</body>
+</html>
