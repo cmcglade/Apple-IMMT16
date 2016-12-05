@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>About Katie</title>
+	<title>Kerri-Dale Smith</title>
 	<meta charset="utf-8">
 	<style>
 		* {
@@ -49,30 +49,32 @@
 			padding-top: 15px;
 			padding-right:40px;
 			padding-left: 40px;
-			padding-bottom: 15px;
 			text-decoration: none;
 			color: white;
 		}
 		li a:hover {
+			
 			color: grey;
 		}
 		
+ 
 		/*a:hover, a:active {
              background-color: #cf224d ;
             }*/
-		
-		/*img {
-			/*float: right;*/
-			/*margin: 0 0 0 15px;
-		}*/
-		.heading {
-			padding-left: 40px;
-			padding-top: 20px;
+		h1 {
+			text-align: center;
+		}
+		h2 {
+			text-align: center;
+			color: grey;
+		}
+		img {
+			float: right;
+			margin: 0 0 15px 15px;
 		}
 		.bio {
-			width: 45%;
 			padding-right: 10px;
-			padding-left: 40px;
+			padding-top: 10px;
 		}
 		#logo:hover {
 			background-color: white;
@@ -80,29 +82,7 @@
 		.team {
 			padding-top: 10px;
 		}
-		.img-position {
-			position: absolute;
-			top: 80px;
-			right: 20px;
-			margin-left: 40px;
-			border: 5px solid black;
-			border-radius: 50%;	
-		}
-		input {
-			background: lavender;
-			border-radius: 5px;
-			margin-left: 40px;
-			font-size: 14px;
-		}
-		#funfacts {
-			display: none;
-		}
 	</style>
-	<script>
-		function show(){
-			document.getElementById('funfacts').style.display = 'block';
-		}
-	</script>
 </head>
 <body>
 
@@ -110,7 +90,7 @@
 		<!--<nav class="nav">-->
 		<div id="nav">
 			<ul>
-			<li id="logo"><a href="home.html"><img src="logo.png" style=”width: 100%”></a></li>
+			<li id="logo"><a href="home.html"><img src="logo2.png" style=”width: 100%”></a></li>
 			<li class="team"><a href="aboutjoy.html">Joy</a></li> 
 			<li class="team"><a href="aboutkerri.html">Kerri</a></li>
 			<li class="team"><a href="aboutfemi.html">Femi</a></li>
@@ -122,30 +102,34 @@
 	<!--</div>-->
 	
 	<div id="content">
-		<div class="heading">
-			<h1>Katie Lawson</h1>
+		<div class="header">
+			<h1>Kerri-Dale Smith</h1>
 		</div>
-		<div class="heading">
-			<h2>Content Strategy</h2>
-		</div>
-		<div>
-			<img class="img-position" src="katieL.jpg" width="45%"><!--insert photo of yourself here-->
+		<div class="header">
+			<h2>Product Design Strategist</h2>
 		</div>
 		<div>
-			<p class="bio">Katie loves to solve problems and help people and organizations reach their goals. <br><br>She values the white space in our lives; whether on a page, a screen, or in our minds.</p>
+			<img id="play" src="kerri.jpg" width="50%"><!--insert photo of yourself here-->
 		</div>
-		<br>
-		<input type="button" value="Click to learn a Fun Fact about Katie" onclick="show('funfacts')">
-		<div id="funfacts">
-			<div class="heading">
-				<h3>Fun Fact</h3>
-			</div>
-			<div>
-				<p class="bio">Katie's first Apple was a green ipod mini.</p>
-			</div>
+		<div>
+			<p class="bio">Kerri was born high up in the hills of Mandeville, Jamaica, so she loves any and all outdoor activities -- with the exception of those that take place in the dead of Winter. An avid doodler, Kerri can fill notebooks up at a rapid rate; she's constantly sketching ideas that and solutions to enrich others' lives. Ever wonder why her hair is so big -- it's full of ideas!
+            <br><br>
+            Equipped with a degree in Industrial Design, Kerri works with her fantastic team to create the most innovative products the planet has ever seen. If you don't know, you better take a trip to the nearest Apple store and ask somebody!</p>
 		</div>
-
+		<div class="header">
+			<h3>Fun Fact</h3>
+		</div>
+		<div>
+			<p class="bio">Kerri is ambidextrous - Double the fun for your design!</p>
+		</div>
 	</div>
+
+	<h3> Get to know Kerri at... </h3>
+
+	<button onclick="document.getElementById('play').src='kerri.jpg'">At Play</button>
+
+	<button onclick="document.getElementById('play').src='KerriAtWork.jpg'">At Work</button>
+
 	
 </body>
 </html>
