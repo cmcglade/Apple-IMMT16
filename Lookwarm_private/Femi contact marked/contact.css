@@ -1,0 +1,117 @@
+ul {padding:10px;}
+
+#navigation_container #navigation {
+  margin: 30px;
+  width: 960px;
+}
+
+#navigation_container #navigation li {
+  margin-top: 16px;
+  list-style: none;
+  float: left;
+  width: 172px;
+  height: 25px;
+  vertical-align: top;
+}
+
+#navigation_container #navigation li.one {
+  border-bottom: 2px solid #798993;
+}
+
+#navigation_container #navigation li.two {
+  border-bottom: 2px solid #3a435b;
+}
+
+#navigation_container #navigation li.three{
+  border-bottom:2px solid #c0c6c9
+}
+
+#navigation_container #navigation li.four{
+  border-bottom:2px solid #84cccc
+}
+
+#navigation_container #navigation li a,  #navigation_container #navigation li a:visited {
+  font-family: "Helvetica",Arial,sans-serif;
+  width: 172px;
+  color: #444;
+  font-size: 19px;
+  text-decoration:none;
+  letter-spacing: .4pt;
+}
+
+#navigation_container #navigation li a:hover{
+  text-decoration:none;color:#aaa
+}
+
+
+.contact-form{width:600px;
+			margin:60px;
+			position: center;
+		}
+.contact-form .form-control{
+	border:none;
+	box-shadow:none;
+	border-radius:0;
+	border-bottom: 2px solid #cfd8dc;
+	transition: 1s ease;
+	font-weight: bold;
+	font-size: 16px;
+	width: 100%;
+	height: relative;
+	}
+
+	.contact-form .form-control:focus{
+	transition: 1s ease;
+	border-bottom: 1px solid #2abfcc;
+	}
+	.contact-main  .contact-main-title h2{
+	margin-top:0;
+	}
+
+	.contact-form .send-msg{
+	color:#2abfcc;
+	border:1px solid #2abfcc;
+	height:40px;
+	background-color:transparent;
+	transition: all 0.8s ease-out;
+	margin-top:40px;
+	}
+
+	.contact-form .send-msg:hover{
+	color:#fff;
+	border:1px solid #fff;
+	height:40px;
+	background-color:#2abfcc;
+	}
+
+	p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+body{
+	font-family:sans-serif;
+	text-align: center;
+	padding-right: 0px;
+	width: 100%;
+	margin: 5%;
+
+}	 
+
+h1{
+	margin:20px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #a7a7a7;
+}
+
+title
+{
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+

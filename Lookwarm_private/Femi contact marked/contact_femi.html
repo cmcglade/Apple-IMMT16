@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Contact" content="">
+ <title> Contact Page </title>
+        <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <!--good work and nice styling on the form page, you chould use the same styling on the results page.  you lost some marks because
+    results message is not exactly as assigned-->
+
+<!-- Navigation -->
+			<div id="navigation_container">
+				<ul id="navigation">
+					<li class="one"><a href="/home">HOME</a></li>
+					<li class="two"><a href="/team">TEAM</a></li>
+					<li class="three"><a href="/aboutfme.html">ABOUT</a></li>
+					<li class="four"><a href="/contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+
+<div class="contact-form">
+  <h1>Contact Form </h1>
+    <form method='POST' action="contact.php">
+   <div class="controls">
+       <div class="form-group">
+			<p>First Name</p>
+			<input type="text" name="first_name" class="form-input-text form-control"  required="required">                              
+	   </div>
+	   <div class="form-group">
+			<p>Last Name</p>
+			<input type="text" name="last_name" class="form-input-text form-control"  required="required">                              
+	   </div>
+	   <div class="form-group">
+			<p>Phone Number</p>
+			<input type="Number" name="phone" class="form-input-text form-control" >                              
+	   </div>
+	   <div class="form-group">
+			<p>Password</p>
+			<input type="password" name="password" class="form-input-text form-control" required="required">                              
+	   </div>
+		<div class="form-group">
+		   <p >Email</p>
+		   <input type="email" name="email" class="form-input-text form-control"  required="required">                           
+	   </div>
+	   	
+        <div class="form-group">
+		   <p>Message</p>
+		   <textarea name="message" class="form-input-text form-control" rows="4" required="required"></textarea>
+        </div>
+        <div class="send-button bottom-margin">
+			<button type="submit" class="btn btn-send send-msg">SEND MESSAGE</button>
+        </div>
+    </div>
+   </form>
+</div>
+
+</html>
+

@@ -1,0 +1,26 @@
+body {
+	font-family: "Arial";
+	background-color: #d8d8d8;
+	}
+.h1 {
+	background-color: #292929; 
+	color: white;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	}
+.form {padding-top: 5px} /*try to format your code so it is easily readable*/
+.answer{
+	text-align: center;
+	padding-top: 70px
+	}
+
+.link {
+		text-decoration: none;
+		background-color: #292929;
+		color: white;
+		border-left: 2px;
+		}
+
+a.hover {
+		background-color: white; color: black; /*use two lines here*/
+		}
