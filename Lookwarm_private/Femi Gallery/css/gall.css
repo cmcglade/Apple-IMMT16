@@ -1,0 +1,106 @@
+		img {
+			
+			height:600px;
+			width:800px;
+		    border:3px solid gray;
+		}
+
+		.imgStyle{
+			height: 120px;
+			width:120px;
+			border:3px;
+			position: inline-block;
+			border-radius: 50%;
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		<-- still working on this other part -->/*this is not correct css commenting*/
+
+		a:hover, a:active {
+             background-color: #cf224d ;
+            }
+		
+/*
+		body {
+			background-color: white;
+			font-family: Verdana, Arial, sans-serif;
+			*margin: 5%;
+			color: black;
+		} */
+		#nav {
+            background-color: black;
+			padding: 0;
+			margin: 0;
+		}
+
+		#menubar {
+			float: left;
+			display: inline-block;
+
+		}
+		#content {
+			float: left;
+			padding-right: 25px;
+		}
+
+		
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			
+		}
+		li {
+			float: left;
+			/*display: inline-block;
+			margin-right: 20px;*/
+			
+
+		}
+		li a {
+			display: inline-block;
+			text-align: center;
+			padding-top: 15px;
+			padding-right:40px;
+			padding-left: 40px;
+			text-decoration: none;
+			color: white;
+		}
+		li a:hover {
+			
+			color: grey;
+		}
+		
+ 
+		a:hover, a:active {
+             background-color: #cf224d ;
+            }
+		
+		img {
+			float: right;
+			margin: 0 0 15px 15px;
+
+		}
+
+		.img-circle {
+				border-radius: 50%;
+				box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		.bio {
+			padding-right: 10px;
+		}
+		#logo:hover {
+			background-color: white;
+		}
+		.team {
+			padding-top: 10px;
+		}
+
+		p {
+			text-align:top;
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+*/

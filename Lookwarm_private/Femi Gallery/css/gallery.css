@@ -1,0 +1,130 @@
+body {
+  background: #333;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 0;
+  background: #000;
+}
+
+div#javascript-gallery {
+  display: inline-block;
+ 
+}
+
+section img {
+  width: 380px;
+  height: 220px;
+}
+
+figure {
+  margin: 0;
+}
+
+div#javascript-gallery a {
+  flex: 1 1 10%;
+
+  opacity: .3;
+  transition: .3s;
+}
+
+div#javascript-gallery a:hover,
+div#javascript-gallery a:focus {
+  opacity: 1;
+}
+
+/*
+		* {
+			box-sizing: border-box;
+			/*border: 1px solid black;*/
+			/*margin: 0;
+			padding: 0;
+		}
+		body {
+			background-color: white;
+			font-family: Verdana, Arial, sans-serif;
+			*margin: 5%;
+			color: black;
+		}
+		#nav {
+            background-color: black;
+			padding: 0;
+			margin: 0;
+		}
+
+		/*#menubar {
+			float: left;
+			display: inline-block;
+
+		}
+		#content {
+			float: left;
+			padding-right: 25px;
+		}*/
+
+		/*
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			
+		}
+		li {
+			float: left;
+			/*display: inline-block;
+			margin-right: 20px;*/
+			/*
+
+		}
+		li a {
+			display: inline-block;
+			text-align: center;
+			padding-top: 15px;
+			padding-right:40px;
+			padding-left: 40px;
+			text-decoration: none;
+			color: white;
+		}
+		li a:hover {
+			
+			color: grey;
+		}
+		
+ 
+		/*a:hover, a:active {
+             background-color: #cf224d ;
+            }*/
+            /*
+		
+		img {
+			float: right;
+			margin: 0 0 15px 15px;
+
+		}
+
+		.img-circle {
+				border-radius: 50%;
+				box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+
+		.bio {
+			padding-right: 10px;
+		}
+		#logo:hover {
+			background-color: white;
+		}
+		.team {
+			padding-top: 10px;
+		}
+
+		p {
+			text-align:top;
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+		}
+	</style>
+
+*/
+

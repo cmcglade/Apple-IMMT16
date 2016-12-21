@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!--try to keep your head links organised, ie , keep the javascript links together, the css together.  you lost makrs becuase you didn't include a screen grab of your validation.  I am also wondering if you wrote all this code on your own, you are using .asp links below, rather than simply using a hashtag placeholder or an html link as we have covered in class-->
+	<title>Image Gallery</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="js/bootstrap.js"></script>
+</head>
+<body>
+	<header>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		<h1>My Website</h1>
+		</div>	
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="home.asp">Home</a></li><!--where are these .asp links coming from?-->
+			<li class="active"><a href="#">Gallery</a></li>
+			<li><a href="about.asp">About</a></li>
+			<li><a href="contact.asp">Contact</a></li>
+		</ul>
+	</header>
+	<br>
+	<div class="container-fluid">
+	<div class="jumbotron" class="description">
+	<h1>Image Gallery</h1>
+	<p>These are some of the photograps taken by me for my Photography class, during my time as a journalism undergraduate.</p><!--watch your spelling, content is as important as code-->
+	</div>
+	</div><!--you should have included the rest of the content below in the container fluid div so margins etc would line up-->
+	<div class="row">
+		<div class="col-xs-6 col-sm-4">
+			<a href="Galeria_Clock.html" class="thumbnail"><img src="img/manaus_1.jpg" alt="Town Clock in Manaus, flood, 2012">
+			<div class="caption">
+				<p>Tower Clock in Manaus, during the flood of 2012</p>
+			</div>
+			</a>
+		</div>
+				<div class="col-xs-6 col-sm-4">
+			<a href="Galeria_Fish_Vendor.html" class="thumbnail"><img src="img/manaus_4.jpg" alt="Man selling fish in Manaus, 2012">
+			<div class="caption">
+				<p>Man selling fish in Manaus, 2012</p>
+			</div>
+			</a>
+		</div>
+		<div class="col-xs-6 col-sm-4">
+			<a href="Galeria_Bus.html" class="thumbnail"><img src="img/manaus_2.jpg" alt="Bus in Manaus, flood, 2012">
+			<div class="caption">
+				<p>Bus in Manaus, during the flood of 2012</p>
+			</div>
+			</a>
+		</div>
+		<div class="col-xs-6 col-sm-4">
+			<a href="Galeria_Fish_Market.html" class="thumbnail"><img src="img/manaus_3.jpg" alt="Fish Market in Manaus, 2012">
+			<div class="caption">
+				<p>Fish market in Manaus, during 2012</p>
+			</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

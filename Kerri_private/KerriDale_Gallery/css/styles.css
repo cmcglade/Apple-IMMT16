@@ -1,0 +1,33 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color: #292d4a;
+}
+
+h3 {
+	color: #292d4a;
+}
+
+.jumbotron span {
+	font-style: italic;
+	font-family: Garamond, "Times New Roman",Serif;
+	font-weight: bold;
+	color: #cf224d;
+}
+
+span {
+	color: #cf224d;
+}
+
+h5 {
+	margin-bottom: 25px;
+	color: #ababab;
+}
+
+p {
+	color: #898989;
+}
